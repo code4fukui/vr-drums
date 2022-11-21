@@ -11,20 +11,19 @@ box.setAttribute("color", rgb(255, 100, 100));
 */
 // for pc
 const isQuest = navigator.userAgent.indexOf("Quest") >= 0;
-const y = isQuest ? 1.2 : 1.53;
-const scale = isQuest ? 1 : 3;
+const y = isQuest ? 0 : 1.53;
+const scale = isQuest ? 1 : 1;
 {
   const obj = cr("a-entity", scene);
   obj.setAttribute("gltf-model", asset("./drums.glb"));
   obj.setAttribute("position", { x: 0, y, z: -.5 });
   obj.setAttribute("scale", { x: scale, y: scale, z: scale });
 }
-/*
 {
+  const scale = 0.1;
   const obj = cr("a-entity", scene);
-  obj.setAttribute("gltf-model", asset("./shishiniku.glb"));
-  obj.setAttribute("position", { x: -0.15 * scale, y, z: -.5 });
+  obj.setAttribute("gltf-model", asset("https://immersive-web.github.io/webxr-samples/media/gltf/space/space.gltf"));
+  obj.setAttribute("position", { x: 0, y: 0, z: 0 });
   obj.setAttribute("scale", { x: scale, y: scale, z: scale });
 }
-*/
 </script>
