@@ -1,15 +1,25 @@
 # vr-drums
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A virtual reality (VR) drumming experience.
+A Web/Code project by [Code for FUKUI](https://github.com/code4fukui).
 
-## Features
-- VR drumming experience with realistic drum models
-- Supports both desktop and VR (Quest) platforms
-- Includes a space scene background
+**Live demo**: https://code4fukui.github.io/vr-drums/
 
-## Usage
-To run the project, open the `index.html` file in a web browser. If using a VR headset, the experience will automatically adapt to the VR mode.
+## Technology Stack
+
+**Browser modules (ES imports):**
+
+- [`aframe.js`](https://js.sabae.cc/aframe.js)
+
+
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/vr-drums/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
